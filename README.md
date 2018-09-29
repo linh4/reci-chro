@@ -1,1 +1,1 @@
-# recipe-search-api
+# recipeapi
