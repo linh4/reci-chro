@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Linh can cook",
+  "description": "Search healthy recipes",
+  "version": "1",
+  "author": "Linh Huynh",
+
+  "icons": {
+    "128":"ducky.png"
+  },
+
+  "browser_action":{
+    "default_title": "Enjoy the meal",
+    "default_popup": "popup.html"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+
+  "permissions": ["activeTab"]
+}
